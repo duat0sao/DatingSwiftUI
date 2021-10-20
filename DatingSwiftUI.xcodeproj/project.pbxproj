@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8C351E271FA64D00B613F7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C351D271FA64D00B613F7 /* Tests_iOS.swift */; };
+		FC8C3520271FA64D00B613F7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C351F271FA64D00B613F7 /* Tests_iOSLaunchTests.swift */; };
+		FC8C352A271FA64D00B613F7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3529271FA64D00B613F7 /* Tests_macOS.swift */; };
+		FC8C352C271FA64D00B613F7 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C352B271FA64D00B613F7 /* Tests_macOSLaunchTests.swift */; };
+		FC8C352D271FA64D00B613F7 /* DatingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3505271FA64C00B613F7 /* DatingSwiftUIApp.swift */; };
+		FC8C352E271FA64D00B613F7 /* DatingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3505271FA64C00B613F7 /* DatingSwiftUIApp.swift */; };
+		FC8C352F271FA64D00B613F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3506271FA64C00B613F7 /* ContentView.swift */; };
+		FC8C3530271FA64D00B613F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3506271FA64C00B613F7 /* ContentView.swift */; };
+		FC8C3531271FA64D00B613F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8C3507271FA64D00B613F7 /* Assets.xcassets */; };
+		FC8C3532271FA64D00B613F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8C3507271FA64D00B613F7 /* Assets.xcassets */; };
+		FC8C3542271FAA3F00B613F7 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3541271FAA3F00B613F7 /* DiscoverView.swift */; };
+		FC8C3543271FAA3F00B613F7 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3541271FAA3F00B613F7 /* DiscoverView.swift */; };
+		FC8C3545271FAD9B00B613F7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3544271FAD9B00B613F7 /* Person.swift */; };
+		FC8C3546271FAD9B00B613F7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C3544271FAD9B00B613F7 /* Person.swift */; };
+		FC8C3549271FB32200B613F7 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = FC8C3548271FB32200B613F7 /* QGrid */; };
+		FC8C354B271FBFA300B613F7 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C354A271FBFA300B613F7 /* GridCell.swift */; };
+		FC8C354C271FBFA300B613F7 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C354A271FBFA300B613F7 /* GridCell.swift */; };
+		FC8C354E272097C200B613F7 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C354D272097C200B613F7 /* BottomSheetView.swift */; };
+		FC8C354F272097C200B613F7 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C354D272097C200B613F7 /* BottomSheetView.swift */; };
+		FC8C35512720A79900B613F7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C35502720A79900B613F7 /* DetailsView.swift */; };
+		FC8C35522720A79900B613F7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C35502720A79900B613F7 /* DetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8C351A271FA64D00B613F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8C3500271FA64C00B613F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8C350B271FA64D00B613F7;
+			remoteInfo = "DatingSwiftUI (iOS)";
+		};
+		FC8C3526271FA64D00B613F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8C3500271FA64C00B613F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8C3511271FA64D00B613F7;
+			remoteInfo = "DatingSwiftUI (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8C3505271FA64C00B613F7 /* DatingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingSwiftUIApp.swift; sourceTree = "<group>"; };
+		FC8C3506271FA64C00B613F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC8C3507271FA64D00B613F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC8C350C271FA64D00B613F7 /* DatingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C3512271FA64D00B613F7 /* DatingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C3514271FA64D00B613F7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FC8C3519271FA64D00B613F7 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C351D271FA64D00B613F7 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		FC8C351F271FA64D00B613F7 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		FC8C3525271FA64D00B613F7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C3529271FA64D00B613F7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		FC8C352B271FA64D00B613F7 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		FC8C3541271FAA3F00B613F7 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		FC8C3544271FAD9B00B613F7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FC8C354A271FBFA300B613F7 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		FC8C354D272097C200B613F7 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		FC8C35502720A79900B613F7 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8C3509271FA64D00B613F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C3549271FB32200B613F7 /* QGrid in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C350F271FA64D00B613F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3516271FA64D00B613F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3522271FA64D00B613F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8C34FF271FA64C00B613F7 = {
+			isa = PBXGroup;
+			children = (
+				FC8C3504271FA64C00B613F7 /* Shared */,
+				FC8C3513271FA64D00B613F7 /* macOS */,
+				FC8C351C271FA64D00B613F7 /* Tests iOS */,
+				FC8C3528271FA64D00B613F7 /* Tests macOS */,
+				FC8C350D271FA64D00B613F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8C3504271FA64C00B613F7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C3505271FA64C00B613F7 /* DatingSwiftUIApp.swift */,
+				FC8C3506271FA64C00B613F7 /* ContentView.swift */,
+				FC8C3541271FAA3F00B613F7 /* DiscoverView.swift */,
+				FC8C3544271FAD9B00B613F7 /* Person.swift */,
+				FC8C354A271FBFA300B613F7 /* GridCell.swift */,
+				FC8C354D272097C200B613F7 /* BottomSheetView.swift */,
+				FC8C35502720A79900B613F7 /* DetailsView.swift */,
+				FC8C3507271FA64D00B613F7 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FC8C350D271FA64D00B613F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C350C271FA64D00B613F7 /* DatingSwiftUI.app */,
+				FC8C3512271FA64D00B613F7 /* DatingSwiftUI.app */,
+				FC8C3519271FA64D00B613F7 /* Tests iOS.xctest */,
+				FC8C3525271FA64D00B613F7 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8C3513271FA64D00B613F7 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C3514271FA64D00B613F7 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FC8C351C271FA64D00B613F7 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C351D271FA64D00B613F7 /* Tests_iOS.swift */,
+				FC8C351F271FA64D00B613F7 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		FC8C3528271FA64D00B613F7 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C3529271FA64D00B613F7 /* Tests_macOS.swift */,
+				FC8C352B271FA64D00B613F7 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8C350B271FA64D00B613F7 /* DatingSwiftUI (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8C3535271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "DatingSwiftUI (iOS)" */;
+			buildPhases = (
+				FC8C3508271FA64D00B613F7 /* Sources */,
+				FC8C3509271FA64D00B613F7 /* Frameworks */,
+				FC8C350A271FA64D00B613F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatingSwiftUI (iOS)";
+			packageProductDependencies = (
+				FC8C3548271FB32200B613F7 /* QGrid */,
+			);
+			productName = "DatingSwiftUI (iOS)";
+			productReference = FC8C350C271FA64D00B613F7 /* DatingSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8C3511271FA64D00B613F7 /* DatingSwiftUI (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8C3538271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "DatingSwiftUI (macOS)" */;
+			buildPhases = (
+				FC8C350E271FA64D00B613F7 /* Sources */,
+				FC8C350F271FA64D00B613F7 /* Frameworks */,
+				FC8C3510271FA64D00B613F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatingSwiftUI (macOS)";
+			productName = "DatingSwiftUI (macOS)";
+			productReference = FC8C3512271FA64D00B613F7 /* DatingSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8C3518271FA64D00B613F7 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8C353B271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				FC8C3515271FA64D00B613F7 /* Sources */,
+				FC8C3516271FA64D00B613F7 /* Frameworks */,
+				FC8C3517271FA64D00B613F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8C351B271FA64D00B613F7 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = FC8C3519271FA64D00B613F7 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FC8C3524271FA64D00B613F7 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8C353E271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				FC8C3521271FA64D00B613F7 /* Sources */,
+				FC8C3522271FA64D00B613F7 /* Frameworks */,
+				FC8C3523271FA64D00B613F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8C3527271FA64D00B613F7 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = FC8C3525271FA64D00B613F7 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8C3500271FA64C00B613F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FC8C350B271FA64D00B613F7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FC8C3511271FA64D00B613F7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FC8C3518271FA64D00B613F7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FC8C350B271FA64D00B613F7;
+					};
+					FC8C3524271FA64D00B613F7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FC8C3511271FA64D00B613F7;
+					};
+				};
+			};
+			buildConfigurationList = FC8C3503271FA64C00B613F7 /* Build configuration list for PBXProject "DatingSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8C34FF271FA64C00B613F7;
+			packageReferences = (
+				FC8C3547271FB32200B613F7 /* XCRemoteSwiftPackageReference "QGrid" */,
+			);
+			productRefGroup = FC8C350D271FA64D00B613F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8C350B271FA64D00B613F7 /* DatingSwiftUI (iOS) */,
+				FC8C3511271FA64D00B613F7 /* DatingSwiftUI (macOS) */,
+				FC8C3518271FA64D00B613F7 /* Tests iOS */,
+				FC8C3524271FA64D00B613F7 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8C350A271FA64D00B613F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C3531271FA64D00B613F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3510271FA64D00B613F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C3532271FA64D00B613F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3517271FA64D00B613F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3523271FA64D00B613F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8C3508271FA64D00B613F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C352F271FA64D00B613F7 /* ContentView.swift in Sources */,
+				FC8C35512720A79900B613F7 /* DetailsView.swift in Sources */,
+				FC8C352D271FA64D00B613F7 /* DatingSwiftUIApp.swift in Sources */,
+				FC8C3545271FAD9B00B613F7 /* Person.swift in Sources */,
+				FC8C3542271FAA3F00B613F7 /* DiscoverView.swift in Sources */,
+				FC8C354B271FBFA300B613F7 /* GridCell.swift in Sources */,
+				FC8C354E272097C200B613F7 /* BottomSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C350E271FA64D00B613F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C3530271FA64D00B613F7 /* ContentView.swift in Sources */,
+				FC8C35522720A79900B613F7 /* DetailsView.swift in Sources */,
+				FC8C352E271FA64D00B613F7 /* DatingSwiftUIApp.swift in Sources */,
+				FC8C3546271FAD9B00B613F7 /* Person.swift in Sources */,
+				FC8C3543271FAA3F00B613F7 /* DiscoverView.swift in Sources */,
+				FC8C354C271FBFA300B613F7 /* GridCell.swift in Sources */,
+				FC8C354F272097C200B613F7 /* BottomSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3515271FA64D00B613F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C3520271FA64D00B613F7 /* Tests_iOSLaunchTests.swift in Sources */,
+				FC8C351E271FA64D00B613F7 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8C3521271FA64D00B613F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C352C271FA64D00B613F7 /* Tests_macOSLaunchTests.swift in Sources */,
+				FC8C352A271FA64D00B613F7 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8C351B271FA64D00B613F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8C350B271FA64D00B613F7 /* DatingSwiftUI (iOS) */;
+			targetProxy = FC8C351A271FA64D00B613F7 /* PBXContainerItemProxy */;
+		};
+		FC8C3527271FA64D00B613F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8C3511271FA64D00B613F7 /* DatingSwiftUI (macOS) */;
+			targetProxy = FC8C3526271FA64D00B613F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC8C3533271FA64D00B613F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8C3534271FA64D00B613F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC8C3536271FA64D00B613F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TranDuat.DatingSwiftUI;
+				PRODUCT_NAME = DatingSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8C3537271FA64D00B613F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TranDuat.DatingSwiftUI;
+				PRODUCT_NAME = DatingSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8C3539271FA64D00B613F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TranDuat.DatingSwiftUI;
+				PRODUCT_NAME = DatingSwiftUI;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC8C353A271FA64D00B613F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TranDuat.DatingSwiftUI;
+				PRODUCT_NAME = DatingSwiftUI;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FC8C353C271FA64D00B613F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranDuat.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DatingSwiftUI (iOS)";
+			};
+			name = Debug;
+		};
+		FC8C353D271FA64D00B613F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranDuat.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DatingSwiftUI (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8C353F271FA64D00B613F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranDuat.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DatingSwiftUI (macOS)";
+			};
+			name = Debug;
+		};
+		FC8C3540271FA64D00B613F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MPD3BTQXAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranDuat.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DatingSwiftUI (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8C3503271FA64C00B613F7 /* Build configuration list for PBXProject "DatingSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C3533271FA64D00B613F7 /* Debug */,
+				FC8C3534271FA64D00B613F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8C3535271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "DatingSwiftUI (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C3536271FA64D00B613F7 /* Debug */,
+				FC8C3537271FA64D00B613F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8C3538271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "DatingSwiftUI (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C3539271FA64D00B613F7 /* Debug */,
+				FC8C353A271FA64D00B613F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8C353B271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C353C271FA64D00B613F7 /* Debug */,
+				FC8C353D271FA64D00B613F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8C353E271FA64D00B613F7 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C353F271FA64D00B613F7 /* Debug */,
+				FC8C3540271FA64D00B613F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC8C3547271FB32200B613F7 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC8C3548271FB32200B613F7 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC8C3547271FB32200B613F7 /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC8C3500271FA64C00B613F7 /* Project object */;
+}
